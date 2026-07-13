@@ -17,3 +17,14 @@ int findOdd(const vector<int>& numbers){
   }
   return -1;
 }
+
+/* #include <vector>
+using namespace std;
+
+int findOdd(const vector<int>& numbers) {
+    int result = 0;
+    for (int n : numbers) {
+        result ^= n;
+    }
+    return result;
+} */
